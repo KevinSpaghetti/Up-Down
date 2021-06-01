@@ -17,6 +17,8 @@ public class ObstacleSpawner : MonoBehaviour
 
     
     //Behaviour and obstacle settings
+    public bool startSpawningOnStart = false;
+
     public List<GameObject> possibleObstacles;
     public GameObject spawnPointsParent; //children of this gameobject will be used as spawn points
 
@@ -25,10 +27,22 @@ public class ObstacleSpawner : MonoBehaviour
     public float killDistanceForSpawnedObjects = 50.0f;
 
     private List<Transform> spawnPoints;
-    private List<GameObject> spawnedObstacles;
+    
+    private int maxNOfObjectsForAllPools = 200;
+    private GameObjectPool[] possibleObstaclePools; //every possible obstacle has its pool
+    private List<KeyValuePair<GameObject, int>> spawnedObstacles; //store the index of the pool from which we borrowed the object
+    
     void Start()
     {
-        spawnedObstacles = new List<GameObject>();
+        int nOfObjectsPerPool = maxNOfObjectsForAllPools / possibleObstacles.Count;
+        possibleObstaclePools = new GameObjectPool[possibleObstacles.Count];
+        for (int i = 0; i < possibleObstacles.Count; i++)
+        {
+            var pool = new GameObjectPool(nOfObjectsPerPool, possibleObstacles[0]);
+            possibleObstaclePools[i] = pool;
+        }
+
+        spawnedObstacles = new List<KeyValuePair<GameObject, int>>();
         spawnPoints = new List<Transform>();
         foreach (var obj in spawnPointsParent.transform.GetComponentsInChildren<Transform>())
         {
@@ -36,9 +50,11 @@ public class ObstacleSpawner : MonoBehaviour
             spawnPoints.Add(obj);
         }
         //Start a coroutine to spawn objects every t time
-        StartCoroutine(nameof(SpawnObstacles));
+        if (startSpawningOnStart)
+        {
+            StartSpawning();
+        }
         StartCoroutine(nameof(DestroyTooFarObstacles));
-
     }
 
     void Update()
@@ -46,12 +62,19 @@ public class ObstacleSpawner : MonoBehaviour
         //Update all spawned objects positions
         foreach (var obj in spawnedObstacles)
         {
-            obj.transform.position += spawnedObjectDirection * (spawnedObjectsSpeed * Time.deltaTime);
+            obj.Key.transform.position += spawnedObjectDirection * (spawnedObjectsSpeed * Time.deltaTime);
         }
     }
 
-    public void StartSpawning(){}
-    public void EndSpawning(){}
+    public void StartSpawning()
+    {
+        StartCoroutine(nameof(SpawnObstacles));
+    }
+
+    public void EndSpawning()
+    {
+        StopCoroutine(nameof(SpawnObstacles));
+    }
 
     IEnumerator DestroyTooFarObstacles()
     {
@@ -61,17 +84,21 @@ public class ObstacleSpawner : MonoBehaviour
             yield return new WaitForEndOfFrame();
 
             //Collect too far objects
-            var objectToRemoveAndDestroy = spawnedObstacles.FindAll((GameObject gameObject) =>
+            var objectsToReturnToPool = spawnedObstacles.FindAll((KeyValuePair<GameObject, int> pair) =>
             {
-                float distanceFromSpawnPoint = Vector3.Distance(gameObject.transform.position, gameObject.transform.parent.position);
+                float distanceFromSpawnPoint = Vector3.Distance(pair.Key.transform.position, pair.Key.transform.parent.position);
                 return  distanceFromSpawnPoint > killDistanceForSpawnedObjects; 
             });
 
-            foreach (var obj in objectToRemoveAndDestroy)
+            foreach (var pair in objectsToReturnToPool)
             {
-                spawnedObstacles.Remove(obj);
-                Destroy(obj);
+                possibleObstaclePools[pair.Value].ReturnToPool(pair.Key);
             }
+
+            spawnedObstacles.RemoveAll((KeyValuePair<GameObject, int> pair) =>
+            {
+                return objectsToReturnToPool.Contains(pair);
+            });
         }
     }
     
@@ -87,8 +114,8 @@ public class ObstacleSpawner : MonoBehaviour
     public void SpawnObstaclesInTracks()
     {
 
-        Assert.IsTrue(nOfObjectsToSpawnNextWave < 6); // 6 objects would render the game impossible
-        Assert.IsTrue(nOfObjectsToSpawnNextWave >= 0); // 6 objects would render the game impossible
+        Assert.IsTrue(nOfObjectsToSpawnNextWave < 6, "Requested more than 5 objects to spawn"); // 6 objects would render the game impossible
+        Assert.IsTrue(nOfObjectsToSpawnNextWave >= 0, "Requested less than 0 objects to spawn");
 
         
         foreach (var possibleSpawnPoint in spawnPoints)
@@ -97,23 +124,23 @@ public class ObstacleSpawner : MonoBehaviour
             bool spawnHere = (rand.NextDouble() > 0.3f);
             if (spawnHere)
             {
-                var obstacleToSpawn = pickObstacleToSpawn();
-                
-                
-                
-                var obstacle = Instantiate(obstacleToSpawn, possibleSpawnPoint) as GameObject;
-                spawnedObstacles.Add(obstacle);
-                nOfObjectsToSpawnNextWave--;
+                var obstacle = possibleObstaclePools[0].GetFromPool();
+                if (obstacle != null)
+                {
+                    obstacle.transform.position = possibleSpawnPoint.transform.position;
+                    obstacle.transform.rotation = possibleSpawnPoint.transform.rotation;
+                    obstacle.transform.parent = possibleSpawnPoint;
+                    spawnedObstacles.Add(new KeyValuePair<GameObject, int>(obstacle, 0));
+                    nOfObjectsToSpawnNextWave--;    
+                }
+                else
+                {
+                    break;
+                }
             }
 
             if (nOfObjectsToSpawnNextWave == 0) break;
         }
-    }
-
-    public GameObject pickObstacleToSpawn()
-    {
-        Assert.IsTrue(possibleObstacles.Count > 0);
-        return possibleObstacles[0];
     }
 
 

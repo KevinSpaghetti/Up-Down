@@ -34,4 +34,5 @@ public class ScaleOnPointerHover : MonoBehaviour,
     {
         LeanTween.scale(_rectTransform, Vector3.one, 0.12f).setEase(LeanTweenType.linear);
     }
+    
 }
