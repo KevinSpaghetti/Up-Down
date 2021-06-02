@@ -3,10 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerInputController : MonoBehaviour
 {
-
+    [SerializeField]
+    private bool inputIsEnabled;
+    
     public enum PlayerVerticalLocation {
         Top, Bottom
     }
@@ -39,12 +42,28 @@ public class PlayerInputController : MonoBehaviour
     public PlayerHorizontalLocation playerHorizontalLocation;
     public PlayerVerticalLocation playerVerticalLocation;
 
+    private PlayerInput _inputComponent;
+    
     void Start()
     {
+        _inputComponent = GetComponent<PlayerInput>();
+        
         playerHorizontalLocation = startingPlayerSide;
         playerVerticalLocation = startingPlayerZone;
         
         gotoPosition(playerHorizontalLocation, playerVerticalLocation);
+    }
+
+    public void EnableInput()
+    {
+        inputIsEnabled = true;
+        _inputComponent.enabled = true;
+    }
+
+    public void DisableInput()
+    {
+        inputIsEnabled = false;
+        _inputComponent.enabled = false;
     }
     
     void Update(){
