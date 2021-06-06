@@ -840,6 +840,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7019604521772733554}
     m_Modifications:
+    - target: {fileID: 916297109275571708, guid: 583710e32ae28924c8262455807d9bdd, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: dc5934a6c8bedbb4a92ed7e6b7b011e7, type: 3}
     - target: {fileID: 1324276478787609028, guid: 583710e32ae28924c8262455807d9bdd, type: 3}
       propertyPath: m_Name
       value: Leaderboard

@@ -44,7 +44,7 @@ public class PlayerInputController : MonoBehaviour
 
     private PlayerInput _inputComponent;
     
-    void Start()
+    void Awake()
     {
         _inputComponent = GetComponent<PlayerInput>();
         
@@ -66,10 +66,6 @@ public class PlayerInputController : MonoBehaviour
         _inputComponent.enabled = false;
     }
     
-    void Update(){
-        
-    }
-
     void OnMoveLeft(){
         Debug.Log("Left");
         computeNextStateAfterHorizontalAction(PlayerHorizontalAction.GoLeft);

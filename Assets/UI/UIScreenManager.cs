@@ -7,29 +7,33 @@ using UnityEngine.Rendering.Universal;
 public class UIScreenManager : MonoBehaviour
 {
 
-    public GameObject mainMenu;
+    public UIScreen onLoadScreen;
     
-    private GameObject currentScreen;
+    private Stack<UIScreen> screenStack;
     private GameObject screenContainer;
     void Start()
     {
         screenContainer = transform.Find("ScreenContainer").gameObject;
-        Assert.IsNotNull(screenContainer, 
-            "UIScreenManager script must contain a child named ScreenContainer");
-        currentScreen = mainMenu;
+        Assert.IsNotNull(screenContainer, "UIScreenManager script must contain a child named ScreenContainer");
+
+        screenStack = new Stack<UIScreen>(); 
+        screenStack.Push(onLoadScreen);
+        screenStack.Peek().OnAppear();
     }
 
-    
-    void Update()
+    public void PushScreen(UIScreen screen)
     {
+        screenStack.Peek().OnDisappear();
+        screenStack.Push(screen);
+        screenStack.Peek().OnAppear();
+    }
+
+    public void PopScreen()
+    {
+        screenStack.Peek().OnDisappear();
+        screenStack.Pop();
+        screenStack.Peek().OnAppear();
         
-    }
-
-    public void ShowScreen(GameObject screen)
-    {
-        currentScreen.gameObject.SetActive(false);
-        currentScreen = screen;
-        currentScreen.gameObject.SetActive(true);
     }
 
     public void StartGame(){

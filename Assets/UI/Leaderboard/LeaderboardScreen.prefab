@@ -33,7 +33,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -111,9 +111,9 @@ RectTransform:
   m_Father: {fileID: 5294357043261678528}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 540, y: -871.075}
   m_SizeDelta: {x: 930, y: 1504.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5294357043050850339
@@ -213,14 +213,14 @@ GameObject:
   - component: {fileID: 5294357043261678543}
   - component: {fileID: 5294357043261678529}
   - component: {fileID: 223550724925094996}
-  - component: {fileID: 951241015201757698}
+  - component: {fileID: 6913277478415398888}
   m_Layer: 5
   m_Name: LeaderboardScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5294357043261678528
 RectTransform:
   m_ObjectHideFlags: 0
@@ -336,7 +336,7 @@ MonoBehaviour:
     m_Parameters:
       m_Parameters: []
     m_Name: UserInspectedLeaderboard
---- !u!114 &951241015201757698
+--- !u!114 &6913277478415398888
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -345,9 +345,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5294357043261678531}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d722e404f31e61742a144aea71df14e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 4aa5a43695df0d04e97353f97a952dc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoresPersistenceManager: {fileID: 0}
 --- !u!1 &5294357043364000288
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,9 +384,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &5294357043364000300
 CanvasRenderer:
@@ -473,7 +474,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 70}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &5294357043682434666
 MonoBehaviour:
@@ -584,10 +585,10 @@ RectTransform:
   m_Father: {fileID: 5294357043050850340}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 930, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 465, y: -70}
+  m_SizeDelta: {x: 930, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5294357043997605886
 CanvasRenderer:
@@ -739,9 +740,9 @@ RectTransform:
   m_Father: {fileID: 5294357043261678528}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 540, y: -1756.075}
   m_SizeDelta: {x: 930, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5294357044170693961
@@ -795,7 +796,6 @@ GameObject:
   - component: {fileID: 5294357044351529465}
   - component: {fileID: 5294357044351529464}
   - component: {fileID: 5294357044351529415}
-  - component: {fileID: 5294357044351529412}
   m_Layer: 5
   m_Name: Scores
   m_TagString: Untagged
@@ -819,10 +819,10 @@ RectTransform:
   m_Father: {fileID: 5294357043050850340}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 930, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 465, y: -859.65}
+  m_SizeDelta: {x: 930, y: 1289.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5294357044351529414
 CanvasRenderer:
@@ -912,21 +912,6 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: 1
   m_LayoutPriority: 1
---- !u!114 &5294357044351529412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5294357044351529466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ec2af4cfff95824d8110c0b61c1aaf9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreDisplayPrefab: {fileID: 6299990379743172397, guid: 7bc1555d778201c4293f072ffc03166b, type: 3}
-  viewportGameObject: {fileID: 5294357043682434671}
-  scores: 80969800002d310180c3c901005a6202
 --- !u!1 &5294357044439393369
 GameObject:
   m_ObjectHideFlags: 0
@@ -1053,6 +1038,33 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1423717953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6098897834779634542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac6676fb420f284f8edd143d9a9aea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UIScreenManager, Assembly-CSharp
+        m_MethodName: PopScreen
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &5294357044368261788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1156,12 +1168,41 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 72
       objectReference: {fileID: 0}
+    - target: {fileID: 3489100181800176051, guid: ff2cc2912d6ab594e9c8962534bc5246, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489100181800176051, guid: ff2cc2912d6ab594e9c8962534bc5246, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489100181800176051, guid: ff2cc2912d6ab594e9c8962534bc5246, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489100181800176051, guid: ff2cc2912d6ab594e9c8962534bc5246, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PopScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489100181800176051, guid: ff2cc2912d6ab594e9c8962534bc5246, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIScreenManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489100181800176051, guid: ff2cc2912d6ab594e9c8962534bc5246, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4966480687411704170, guid: ff2cc2912d6ab594e9c8962534bc5246, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff2cc2912d6ab594e9c8962534bc5246, type: 3}
+--- !u!1 &6098897834779634542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2151303257657977330, guid: ff2cc2912d6ab594e9c8962534bc5246, type: 3}
+  m_PrefabInstance: {fileID: 5294357044368261788}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &7669773857053851368 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2524785467810774132, guid: ff2cc2912d6ab594e9c8962534bc5246, type: 3}

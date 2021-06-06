@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class UIScreen : MonoBehaviour
 {
-    void Start()
+
+    public void ScreenWillAppear() { }
+
+    public void OnAppear()
     {
-        
+        gameObject.SetActive(true);
     }
 
-    void Update()
+    public void OnDisappear()
     {
-        
+        gameObject.SetActive(false);
     }
 }

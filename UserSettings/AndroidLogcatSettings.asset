@@ -1,0 +1,107 @@
+{
+    "m_SelectedDeviceId": "R58R51NSWCR",
+    "m_SelectedPackage": {
+        "deviceId": "R58R51NSWCR",
+        "name": "com.DellaSchiavaKevin.HighwayToDance",
+        "processId": 8646,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 18955,
+            "exited": false
+        },
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 19340,
+            "exited": false
+        },
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 19833,
+            "exited": false
+        },
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 21066,
+            "exited": false
+        },
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 21604,
+            "exited": false
+        },
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 24566,
+            "exited": false
+        },
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 8646,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "Behavior": 0
+    },
+    "m_Filter": "unity",
+    "m_FilterIsRegularExpression": false,
+    "m_SymbolPaths": []
+}
