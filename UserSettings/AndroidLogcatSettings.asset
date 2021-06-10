@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R58R51NSWCR",
         "name": "com.DellaSchiavaKevin.HighwayToDance",
-        "processId": 8646,
+        "processId": 26551,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -48,6 +48,36 @@
             "deviceId": "R58R51NSWCR",
             "name": "com.DellaSchiavaKevin.HighwayToDance",
             "processId": 8646,
+            "exited": false
+        },
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 12784,
+            "exited": false
+        },
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 22768,
+            "exited": false
+        },
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 24594,
+            "exited": false
+        },
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 25507,
+            "exited": false
+        },
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 26551,
             "exited": false
         }
     ],

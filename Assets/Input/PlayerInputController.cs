@@ -66,19 +66,22 @@ public class PlayerInputController : MonoBehaviour
         _inputComponent.enabled = false;
     }
     
-    void OnMoveLeft(){
+    public void OnMoveLeft(){
+        if (!inputIsEnabled) return ;
         Debug.Log("Left");
         computeNextStateAfterHorizontalAction(PlayerHorizontalAction.GoLeft);
         gotoPosition(playerHorizontalLocation, playerVerticalLocation);
     }
 
-    void OnMoveRight(){
+    public void OnMoveRight(){
+        if (!inputIsEnabled) return ;
         Debug.Log("Right");
         computeNextStateAfterHorizontalAction(PlayerHorizontalAction.GoRight);
         gotoPosition(playerHorizontalLocation, playerVerticalLocation);
     }
 
-    void OnSwitchSide(){
+    public void OnSwitchSide(){
+        if (!inputIsEnabled) return ;
         Debug.Log("Switch");
         Debug.Log("State: " + playerVerticalLocation);
         computeNextStateAfterVerticalAction(PlayerVerticalAction.Switch);

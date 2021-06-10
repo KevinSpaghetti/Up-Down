@@ -8,25 +8,30 @@ using UnityEngine.Assertions;
 public class ScoresVisualizer : MonoBehaviour
 {
 
+    public ScoresPersistenceManager persistenceManager;
+    
     public TextMeshProUGUI scoreDisplayPrefab;
-    public GameObject viewportGameObject;
-
+    
     private const int maxScoresToShow = 10;
     private List<TextMeshProUGUI> scoreTextItems;
-    
-    void Start()
+
+    public void Start()
     {
         scoreTextItems = new List<TextMeshProUGUI>(); 
         for (int i = 0; i < maxScoresToShow; ++i)
         {
-            var scoreGameObject = Instantiate(scoreDisplayPrefab, viewportGameObject.transform) as TextMeshProUGUI;
+            var scoreGameObject = Instantiate(scoreDisplayPrefab, gameObject.transform) as TextMeshProUGUI;
             scoreGameObject.gameObject.SetActive(false);
             scoreTextItems.Append(scoreGameObject);
         }
+        persistenceManager.LoadScores();
+        
     }
-
-    public void DisplayScores(List<int> scores)
+    
+    public void DisplayScores()
     {
+        persistenceManager.LoadScores();
+        List<int> scores = persistenceManager.scores;
         Assert.IsTrue(scores.Count <= maxScoresToShow, "Cannot display more than the " + maxScoresToShow + " highest scores");
 
         //Display all scores by activating the gameobjects needed and giving them the necessary text value, deactivate the others

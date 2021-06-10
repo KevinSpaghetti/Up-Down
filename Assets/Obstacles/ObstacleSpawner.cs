@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using UnityEditor.UIElements;
 using UnityEngine;
@@ -10,8 +11,10 @@ using Random = System.Random;
 public class ObstacleSpawner : MonoBehaviour
 {
 
+    public bool frozen = false;
+    
     //Difficulty management
-    public int nOfObjectsToSpawnNextWave = 0;
+    public int nOfObjectsToSpawnNextWave = 1;
     public float deltaSecondsBetweenWaves = 5;
     public float spawnedObjectsSpeed = 1;
 
@@ -59,6 +62,8 @@ public class ObstacleSpawner : MonoBehaviour
 
     void Update()
     {
+        if (frozen) return;
+        
         //Update all spawned objects positions
         foreach (var obj in spawnedObstacles)
         {
@@ -107,7 +112,16 @@ public class ObstacleSpawner : MonoBehaviour
         for (;;)
         {
             SpawnObstaclesInTracks();
-            yield return new WaitForSeconds(deltaSecondsBetweenWaves);
+            
+            float timer = 0f;
+            while(timer < deltaSecondsBetweenWaves) {
+                while(frozen) {
+                    yield return null;
+                }
+ 
+                timer += Time.deltaTime;
+                yield return null;
+            }
         }
     }
 
@@ -117,7 +131,8 @@ public class ObstacleSpawner : MonoBehaviour
         Assert.IsTrue(nOfObjectsToSpawnNextWave < 6, "Requested more than 5 objects to spawn"); // 6 objects would render the game impossible
         Assert.IsTrue(nOfObjectsToSpawnNextWave >= 0, "Requested less than 0 objects to spawn");
 
-        
+        int nOfObjectsToSpawn = nOfObjectsToSpawnNextWave;
+        if (nOfObjectsToSpawn == 0) return;
         foreach (var possibleSpawnPoint in spawnPoints)
         {
             var rand = new Random();
@@ -125,13 +140,14 @@ public class ObstacleSpawner : MonoBehaviour
             if (spawnHere)
             {
                 var obstacle = possibleObstaclePools[0].GetFromPool();
+                if(obstacle == null) Debug.Log("Pool empty when new object requested");
                 if (obstacle != null)
                 {
                     obstacle.transform.position = possibleSpawnPoint.transform.position;
                     obstacle.transform.rotation = possibleSpawnPoint.transform.rotation;
                     obstacle.transform.parent = possibleSpawnPoint;
                     spawnedObstacles.Add(new KeyValuePair<GameObject, int>(obstacle, 0));
-                    nOfObjectsToSpawnNextWave--;    
+                    nOfObjectsToSpawn--;    
                 }
                 else
                 {
@@ -139,7 +155,7 @@ public class ObstacleSpawner : MonoBehaviour
                 }
             }
 
-            if (nOfObjectsToSpawnNextWave == 0) break;
+            if (nOfObjectsToSpawn == 0) break;
         }
     }
 

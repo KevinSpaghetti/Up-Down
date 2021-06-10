@@ -7,12 +7,12 @@ public class UIScreen : MonoBehaviour
 
     public void ScreenWillAppear() { }
 
-    public void OnAppear()
+    public virtual void OnAppear()
     {
         gameObject.SetActive(true);
     }
 
-    public void OnDisappear()
+    public virtual void OnDisappear()
     {
         gameObject.SetActive(false);
     }

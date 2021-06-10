@@ -8,7 +8,7 @@ public class UISettingsScreen : UIScreen
 
     public Slider volumeSlider;
 
-    public void OnAppear()
+    public override void OnAppear()
     {
         Debug.Log(PlayerPrefs.GetFloat("volume", 0.5f));
         base.OnAppear();
@@ -17,9 +17,10 @@ public class UISettingsScreen : UIScreen
         volumeSlider.onValueChanged.AddListener((value) => { PlayerPrefs.SetFloat("volume", value); });
     }
 
-    public void OnDisappear()
+    public override void OnDisappear()
     {
-        base.OnDisappear();
+        Debug.Log("Saved volumes in player prefs");
         PlayerPrefs.Save();
+        base.OnDisappear();
     }
 }
