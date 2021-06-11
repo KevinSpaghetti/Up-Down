@@ -4,31 +4,35 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-[RequireComponent(typeof(AudioSource))]
+[RequireComponent(typeof(AudioSource), typeof(InfinitePlaylistIterable))]
 public class SongsPlaylistAudioController : MonoBehaviour
 {
-    public bool paused;
-    public bool loopSongList;
+    [SerializeField]
+    private bool paused;
     public bool playOnStart;
-    public List<AudioClip> songs;
-    
-    
+
     private int indexOfPlayingSong = 0;
     private AudioSource _source;
-    
+    private InfinitePlaylistIterable playlist;
     
     // Start is called before the first frame update
     void Start()
     {
         _source = GetComponent<AudioSource>();
+        playlist = GetComponent<InfinitePlaylistIterable>();
         
         if(playOnStart) StartPlaying();
     }
 
     public void StartPlaying()
     {
-        songs = songs.OrderBy(a => Guid.NewGuid()).ToList();
         StartCoroutine(nameof(PlayClipsSequentally));
+    }
+
+    public void StopPlaying()
+    {
+        StopCoroutine(nameof(PlayClipsSequentally));
+        _source.Stop();
     }
 
     public void Pause()
@@ -42,25 +46,22 @@ public class SongsPlaylistAudioController : MonoBehaviour
 
     IEnumerator PlayClipsSequentally()
     {
-        while (loopSongList)
+        foreach (var song in playlist)
         {
-            for (int i = 0; i < songs.Count; ++i)
+            _source.clip = song;
+            _source.Play();
+
+            while (_source.isPlaying)
             {
-                _source.clip = songs[i];
-                _source.Play();
-
-                while (_source.isPlaying)
+                if (paused)
                 {
-                    if (paused)
-                    {
-                        _source.Pause();
-                        yield return new WaitUntil(() => paused == false);
-                        _source.UnPause();
-                    }
-                    yield return null;
+                    _source.Pause();
+                    yield return new WaitUntil(() => paused == false);
+                    _source.UnPause();
                 }
-
+                yield return null;
             }
+
         }
     }
     

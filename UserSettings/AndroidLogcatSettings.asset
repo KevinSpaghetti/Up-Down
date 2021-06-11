@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R58R51NSWCR",
         "name": "com.DellaSchiavaKevin.HighwayToDance",
-        "processId": 26551,
+        "processId": 26031,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,73 +11,37 @@
         {
             "deviceId": "R58R51NSWCR",
             "name": "com.DellaSchiavaKevin.HighwayToDance",
-            "processId": 18955,
-            "exited": false
-        },
-        {
-            "deviceId": "R58R51NSWCR",
-            "name": "com.DellaSchiavaKevin.HighwayToDance",
-            "processId": 19340,
-            "exited": false
-        },
-        {
-            "deviceId": "R58R51NSWCR",
-            "name": "com.DellaSchiavaKevin.HighwayToDance",
-            "processId": 19833,
-            "exited": false
-        },
-        {
-            "deviceId": "R58R51NSWCR",
-            "name": "com.DellaSchiavaKevin.HighwayToDance",
-            "processId": 21066,
-            "exited": false
-        },
-        {
-            "deviceId": "R58R51NSWCR",
-            "name": "com.DellaSchiavaKevin.HighwayToDance",
-            "processId": 21604,
-            "exited": false
-        },
-        {
-            "deviceId": "R58R51NSWCR",
-            "name": "com.DellaSchiavaKevin.HighwayToDance",
-            "processId": 24566,
-            "exited": false
-        },
-        {
-            "deviceId": "R58R51NSWCR",
-            "name": "com.DellaSchiavaKevin.HighwayToDance",
-            "processId": 8646,
-            "exited": false
-        },
-        {
-            "deviceId": "R58R51NSWCR",
-            "name": "com.DellaSchiavaKevin.HighwayToDance",
-            "processId": 12784,
-            "exited": false
-        },
-        {
-            "deviceId": "R58R51NSWCR",
-            "name": "com.DellaSchiavaKevin.HighwayToDance",
-            "processId": 22768,
-            "exited": false
-        },
-        {
-            "deviceId": "R58R51NSWCR",
-            "name": "com.DellaSchiavaKevin.HighwayToDance",
             "processId": 24594,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R58R51NSWCR",
             "name": "com.DellaSchiavaKevin.HighwayToDance",
             "processId": 25507,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R58R51NSWCR",
             "name": "com.DellaSchiavaKevin.HighwayToDance",
             "processId": 26551,
+            "exited": true
+        },
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 7025,
+            "exited": true
+        },
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 23059,
+            "exited": true
+        },
+        {
+            "deviceId": "R58R51NSWCR",
+            "name": "com.DellaSchiavaKevin.HighwayToDance",
+            "processId": 26031,
             "exited": false
         }
     ],

@@ -4,11 +4,13 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine;
 
-
+[RequireComponent(typeof(RectTransform))]
 public class ScaleOnPointerHover : MonoBehaviour, 
     IPointerEnterHandler, IPointerExitHandler
 {
 
+    public bool enabled = true;
+    
     public Vector3 scaleTo;
 
     private RectTransform _rectTransform;
@@ -20,19 +22,19 @@ public class ScaleOnPointerHover : MonoBehaviour,
         _rectTransform = GetComponent<RectTransform>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
+        if(!enabled) return;
         LeanTween.scale(_rectTransform, scaleTo, 0.12f).setEase(LeanTweenType.linear);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        if(!enabled) return;
         LeanTween.scale(_rectTransform, Vector3.one, 0.12f).setEase(LeanTweenType.linear);
     }
+    
+    
     
 }
