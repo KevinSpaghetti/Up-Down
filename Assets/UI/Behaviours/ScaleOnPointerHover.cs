@@ -9,7 +9,7 @@ public class ScaleOnPointerHover : MonoBehaviour,
     IPointerEnterHandler, IPointerExitHandler
 {
 
-    public bool enabled = true;
+    public bool hoverBehaviourEnabled = true;
     
     public Vector3 scaleTo;
 
@@ -21,17 +21,16 @@ public class ScaleOnPointerHover : MonoBehaviour,
     {
         _rectTransform = GetComponent<RectTransform>();
     }
-
-
+    
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if(!enabled) return;
+        if(!hoverBehaviourEnabled) return;
         LeanTween.scale(_rectTransform, scaleTo, 0.12f).setEase(LeanTweenType.linear);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        if(!enabled) return;
+        if(!hoverBehaviourEnabled) return;
         LeanTween.scale(_rectTransform, Vector3.one, 0.12f).setEase(LeanTweenType.linear);
     }
     

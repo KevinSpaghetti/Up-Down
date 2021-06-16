@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b587240d-3e9c-46a1-9b81-99bfa252d1b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Easy Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Easy Editor/CartoonFX Easy Editor Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Easy Editor/CartoonFX Easy Editor Readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Easy Editor/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_ExpressionParser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_ExpressionParser.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_MaterialInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_MaterialInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_Styles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_Styles.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs fade x4 hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs fade x4 hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs fade x4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs fade x4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs x4 hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs x4 hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs x4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs x4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim 4x2 hdr.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim 4x2 hdr.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim 4x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim 4x2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2 ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2 ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2 mesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2 mesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric spark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric spark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric sparks ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric sparks ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric sparks hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric sparks hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ember blur hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ember blur hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ember blur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ember blur.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr explosion second color map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr explosion second color map.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr explosion smoke alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr explosion smoke alpha.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr explosion smoke dissolve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr explosion smoke dissolve.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire blur fade hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire blur fade hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle blur hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle blur hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle blur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle blur.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle crisp hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle crisp hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle crisp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle crisp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle plain hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle plain hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle plain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle plain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire crisp fade hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire crisp fade hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire plain fade hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire plain fade hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur mid fine hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur mid fine hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur mid hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur mid hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur stable fine hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur stable fine hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur stable hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur stable hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur unstable fine hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur unstable fine hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur unstable hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur unstable hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme candle hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme candle hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme candle unstable hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme candle unstable hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme candle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme candle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid fine hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid fine hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp stable fine hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp stable fine hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp stable hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp stable hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp unstable fine hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp unstable fine hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp unstable hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp unstable hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain mid fine hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain mid fine hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain mid hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain mid hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain stable fine hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain stable fine hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain stable hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain stable hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain unstable fine hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain unstable fine hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain unstable hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain unstable hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flare add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flare add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle diamond dissolve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle diamond dissolve.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle dissolve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle dissolve.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft ground nosp add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft ground nosp add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft nosp add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft nosp add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft p8 add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft p8 add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring electric hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring electric hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring water ripple local space ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring water ripple local space ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring water ripple local space arc ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring water ripple local space arc ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring electric.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring electric.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ripple arc dissolve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ripple arc dissolve.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ripple dissolve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ripple dissolve.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring spikes revert hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring spikes revert hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring spikes revert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring spikes revert.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner dissolve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner dissolve.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 crisp dissolve ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 crisp dissolve ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 dissolve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 dissolve.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes half impact gradient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes half impact gradient.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes half impact hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes half impact hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact mesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact mesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star blurred add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star blurred add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star blurred.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star blurred.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star mesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star mesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch ray blur add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch ray blur add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch ray blur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch ray blur.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes blur x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes blur x2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes dissolve smooth x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes dissolve smooth x2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes dissolve x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes dissolve x2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes x2 mesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes x2 mesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes x2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc dissolve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc dissolve.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spikes smooth x2 hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spikes smooth x2 hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spikes x2 hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spikes x2 hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle smooth add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle smooth add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle to diamond ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle to diamond ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle to diamond add.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle to diamond add.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr uv distortion fire perlin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr uv distortion fire perlin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr uv distortion fire smudge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr uv distortion fire smudge.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water foam ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water foam ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water foam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water foam.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch nosp ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch nosp ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch nosp hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch nosp hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch nosp ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch nosp ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch nosp hdr ab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch nosp hdr ab.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr electric_arc_circle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr electric_arc_circle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr electric_barrier.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr electric_barrier.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh foam.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh foam.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh ring.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh ring.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star6.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star6.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star8.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star8.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr particle_electric_arc.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr particle_electric_arc.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr particle_electric_arc_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr particle_electric_arc_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh local space smoother.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh local space smoother.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh local space.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh local space.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr ParticleFont AmazGoDaBold.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr ParticleFont AmazGoDaBold.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr ParticleFont WashYourHand.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr ParticleFont WashYourHand.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr font AmazGoDaBold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr font AmazGoDaBold.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr font WashYourHand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr font WashYourHand.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr particle font.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr particle font.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.CameraShake.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.CameraShake.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleText.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleText.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleTextFontAsset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleTextFontAsset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleText_Runtime.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleText_Runtime.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Glow.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Glow.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Procedural Ring.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Procedural Ring.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Ubershader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Ubershader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_SETTINGS.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_SETTINGS.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_URP.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_URP.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electric Barrier (HDR).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electric Barrier (HDR).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electric Barrier Simple (HDR).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electric Barrier Simple (HDR).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electric Explosion.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electric Explosion.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electric Surface 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electric Surface 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electric Surface.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electric Surface.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electrified 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electrified 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electrified 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electrified 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electrified 3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electrified 3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Lightning Impact.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Lightning Impact.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Lightning Strike + Impact.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Lightning Strike + Impact.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Barrier (HDR, Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Barrier (HDR, Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Barrier (HDR, Purple).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Barrier (HDR, Purple).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Barrier (LDR).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Barrier (LDR).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Barrier Simple (HDR, Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Barrier Simple (HDR, Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Barrier Simple (HDR, Purple).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Barrier Simple (HDR, Purple).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Barrier Simple (HDR, no light).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Barrier Simple (HDR, no light).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Barrier Simple (LDR).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Barrier Simple (LDR).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Explosion (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Explosion (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Explosion (Purple).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Explosion (Purple).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Explosion + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Explosion + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Surface (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Surface (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Surface (Purple).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Surface (Purple).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Surface 2 (Contrast).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Surface 2 (Contrast).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Surface 2 (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Surface 2 (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Surface 2 (Purple).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electric Surface 2 (Purple).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electrified 1 (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electrified 1 (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electrified 1 (Purple).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electrified 1 (Purple).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electrified 2 (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electrified 2 (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electrified 2 (Purple).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electrified 2 (Purple).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electrified 3 (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electrified 3 (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electrified 3 (Purple).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Electrified 3 (Purple).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Impact (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Impact (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Impact (Purple).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Impact (Purple).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Strike + Impact (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Strike + Impact (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Strike + Impact (Purple).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Strike + Impact (Purple).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Strike + Impact + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Strike + Impact + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion 2 Bigger.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion 2 Bigger.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion 3 Bigger.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion 3 Bigger.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion 3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion 3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion Smoke 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion Smoke 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion Smoke 2 (HDR).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion Smoke 2 (HDR).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion Smoke 2 Solo (HDR).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion Smoke 2 Solo (HDR).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Firework 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Firework 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Firework 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Firework 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Firework 3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Firework 3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 1 (HDR).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 1 (HDR).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 1 (no smoke).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 1 (no smoke).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 1 + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 1 + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 2 (Bigger, HDR).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 2 (Bigger, HDR).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 2 (HDR).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 2 (HDR).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 2 (no smoke).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 2 (no smoke).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 2 + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 2 + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 3 (Bigger, HDR).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 3 (Bigger, HDR).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 3 (HDR).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 3 (HDR).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 3 + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion 3 + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion Smoke 1 (HDR).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion Smoke 1 (HDR).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion Smoke 2 (HDR, no smoke columns).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion Smoke 2 (HDR, no smoke columns).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion Smoke 2 Solo (HDR, Blue).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Explosion Smoke 2 Solo (HDR, Blue).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Blue).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Blue).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Cold).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Cold).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Hot).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Hot).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Multicolor).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Multicolor).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Red).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Red).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Red, Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Red, Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Yellow).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Yellow).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Yellow, Purple).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Yellow, Purple).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Blue).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Blue).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Multicolor).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Multicolor).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Purple).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Purple).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Yellow).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Yellow).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Breath.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Breath.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Crisp.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Crisp.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Plain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Plain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Ring.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Ring.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Trail.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Trail.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fireball + Fire Trail.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fireball + Fire Trail.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fireball.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fireball.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Flame Candle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Flame Candle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Flame Crisp.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Flame Crisp.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Flame Plain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Flame Plain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Flame.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Flame.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire (circle).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire (circle).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire (line).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire (line).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Crisp (circle).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Crisp (circle).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Crisp (line).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Crisp (line).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Plain (circle).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Plain (circle).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Plain (line).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Plain (line).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Ring (Blue).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Ring (Blue).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Ring (Shield).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Ring (Shield).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Trail (no smoke).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Trail (no smoke).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Trail (stretched).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fire Trail (stretched).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fireball Crisp.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fireball Crisp.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fireball Plain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Fireball Plain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame (calm).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame (calm).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame (calm, fine).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame (calm, fine).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame (fine).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame (fine).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame (unstable).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame (unstable).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame (unstable, fine).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame (unstable, fine).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Candle (unstable).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Candle (unstable).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Crisp (calm).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Crisp (calm).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Crisp (calm, fine).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Crisp (calm, fine).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Crisp (fine).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Crisp (fine).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Crisp (unstable).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Crisp (unstable).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Crisp (unstable, fine).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Crisp (unstable, fine).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Plain (calm).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Plain (calm).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Plain (calm, fine).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Plain (calm, fine).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Plain (fine).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Plain (fine).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Plain (unstable).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Plain (unstable).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Plain (unstable, fine).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/Variants/CFXR Flame Plain (unstable, fine).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Big Impact HDR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Big Impact HDR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit A (Red).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit A (Red).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit B (Blue).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit B (Blue).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit B 3D (Blue).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit B 3D (Blue).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit C 3D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit C 3D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit D 3D (Yellow).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit D 3D (Yellow).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit Sparks HDR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit Sparks HDR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Impact Contrast.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Impact Contrast.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Impact Glowing HDR (Blue).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Impact Glowing HDR (Blue).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Slash (Blue).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Slash (Blue).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Sparks Impact.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Sparks Impact.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Blue).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Blue).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Blue, Blended).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Blue, Blended).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Red) + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Red) + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Red, Blended).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Red, Blended).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B (Yellow).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B (Yellow).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B 3D (Blue) + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B 3D (Blue) + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B 3D (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B 3D (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B 3D (Yellow).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B 3D (Yellow).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit C + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit C + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit C 3D + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit C 3D + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit D 3D (Cyan).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit D 3D (Cyan).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit D 3D (Yellow) + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit D 3D (Yellow) + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit Sparks.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit Sparks.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast (Blue).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast (Blue).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast (Blue, HDR).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast (Blue, HDR).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast (HDR).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast (HDR).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing Cross Blue HDR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing Cross Blue HDR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing Cross HDR (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing Cross HDR (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing Cross HDR (Orange).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing Cross HDR (Orange).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Blue, No Flare).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Blue, No Flare).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Green, No Flare).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Green, No Flare).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Orange).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Orange).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Orange, No Flare).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Orange, No Flare).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Blue) + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Blue) + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Cross, Blue).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Cross, Blue).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Cross, Orange).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Cross, Orange).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Orange).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Orange).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Sparks Impact (Blue).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Sparks Impact (Blue).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Sparks Impact (Purple).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Sparks Impact (Purple).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Drops Splash.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Drops Splash.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Splash (Small).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Splash (Small).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Splash (Smaller).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Splash (Smaller).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Splash.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Splash.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Drops Splash.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Drops Splash.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Fountain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Fountain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Ripples.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Ripples.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash (Small).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash (Small).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash (Smaller).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash (Smaller).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Sprinkler.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Sprinkler.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Lava Splash (No drops).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Lava Splash (No drops).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Lava Splash (Small, No drops).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Lava Splash (Small, No drops).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Ripples (Arcs).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Ripples (Arcs).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Ripples (Arcs, Loop).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Ripples (Arcs, Loop).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Ripples (Loop).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Ripples (Loop).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Light Blue).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Light Blue).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (No foam).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (No foam).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Small, No drops).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Small, No drops).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Small, No foam).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Small, No foam).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Smaller, No drops).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Smaller, No drops).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Smaller, No foam).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Smaller, No foam).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Flash.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Flash.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Gas Leak.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Gas Leak.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Lines Poof.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Lines Poof.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Magic Poof.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Magic Poof.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Magical Source.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Magical Source.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Portal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Portal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof Alt.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof Alt.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof Circle Flat.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof Circle Flat.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof Circle Screen.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof Circle Screen.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Source 3D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Source 3D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Source Spiral 3D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Source Spiral 3D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Source Spiral.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Source Spiral.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Flash Alt.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Flash Alt.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Lines Poof + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Lines Poof + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Magic Poof + Text Poof.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Magic Poof + Text Poof.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Magic Poof + Text Pop.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Magic Poof + Text Pop.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Magical Source (Blue).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Magical Source (Blue).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Portal (Cyan).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Portal (Cyan).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Portal (Green).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Portal (Green).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Smoke Poof (Dense).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Smoke Poof (Dense).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Smoke Poof + Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Smoke Poof + Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR Dynamic Text Example.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR Dynamic Text Example.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _BANG_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _BANG_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _BOING_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _BOING_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _BOOM_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _BOOM_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _CLICK_ 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _CLICK_ 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _CLICK_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _CLICK_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _POOF_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _POOF_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _POP_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _POP_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _POW_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _POW_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _SLASH_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _SLASH_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _SMASH_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _SMASH_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _SPLASH_ 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _SPLASH_ 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _SPLASH_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _SPLASH_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _WHAM_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _WHAM_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _WHOOSH_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _WHOOSH_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _ZAP_ (invert).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _ZAP_ (invert).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _ZAP_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _ZAP_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR Dynamic Text Example.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR Dynamic Text Example.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _BANG_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _BANG_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _BOING_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _BOING_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _BOOM_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _BOOM_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _CLICK_ 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _CLICK_ 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _CLICK_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _CLICK_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _POOF_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _POOF_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _POP_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _POP_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _POW_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _POW_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _SLASH_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _SLASH_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _SMASH_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _SMASH_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _SPLASH_ 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _SPLASH_ 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _SPLASH_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _SPLASH_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _WHAM_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _WHAM_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _WHOOSH_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _WHOOSH_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _ZAP_ (invert).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _ZAP_ (invert).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _ZAP_.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/Variants Font WashYourHand/CFXR _ZAP_.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/_Make your own text effect.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/_Make your own text effect.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Ground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Ground.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_RandomText.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_RandomText.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Rotate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Rotate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Bloom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Bloom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomGraphDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomGraphDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/CFXR Demo Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/CFXR Demo Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Arrow R.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Arrow R.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Arrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Bloom H.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Bloom H.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Bloom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Bloom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Camera H.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Camera H.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Camera.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn CameraShake H.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn CameraShake H.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn CameraShake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn CameraShake.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Ground H.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Ground H.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Ground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Ground.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Lights H.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Lights H.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Lights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Lights.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn SlowMo H.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn SlowMo H.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn SlowMo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn SlowMo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Readme Cartoon FX Remaster.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Extern/Addons/JMO Assets/Cartoon FX Remaster/Readme Cartoon FX Remaster.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/techno_hideo/techno_hideo SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/techno_hideo/techno_hideo SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/techno_hideo/techno_hideo_bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/techno_hideo/techno_hideo_bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameSystems/DifficultyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameSystems/DifficultyManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameSystems/GameFlowController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameSystems/GameFlowController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameSystems/GameObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameSystems/GameObjectPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Input/PlayerInputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Input/PlayerInputController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/Minivan.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/Minivan.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/ObstacleSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obstacles/ObstacleSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/SceneObstacleController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/SceneObstacleController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/VanMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/VanMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/VanShader.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/VanShader.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/city_vehicles_pallete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/city_vehicles_pallete.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Renderer/3DRenderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Renderer/3DRenderer.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Renderer/RenderingPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Renderer/RenderingPipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Road/RoadMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Road/RoadMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Road/RoadMaterialGraph.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Road/RoadMaterialGraph.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Global Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sequences/Animations/AddUIForReturnToMainMenu.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sequences/Animations/AddUIForReturnToMainMenu.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sequences/Animations/PauseButtonAppear.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sequences/Animations/PauseButtonAppear.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sequences/Animations/PauseButtonDisappear.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sequences/Animations/PauseButtonDisappear.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sequences/Animations/PlayerAppear.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sequences/Animations/PlayerAppear.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sequences/Animations/RemoveUIForGameStart.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sequences/Animations/RemoveUIForGameStart.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sequences/Animations/ScoreTextAppear.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sequences/Animations/ScoreTextAppear.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sequences/Timelines/IntroToGameSequence.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sequences/Timelines/IntroToGameSequence.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sequences/Timelines/ToEndGameMenuTimeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sequences/Timelines/ToEndGameMenuTimeline.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sequences/Timelines/ToMainMenuSequence.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sequences/Timelines/ToMainMenuSequence.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/10,000+People+Chanting,+-I'm+an+Individual-.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/10,000+People+Chanting,+-I'm+an+Individual-.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Absolute+Terror.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Absolute+Terror.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Artifice.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Artifice.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/At+the+Time+of+Encounter,+Two+Hands+Joining+Together.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/At+the+Time+of+Encounter,+Two+Hands+Joining+Together.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Bush+Week.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Bush+Week.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Disconnected.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Disconnected.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Dream+Sunlight.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Dream+Sunlight.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Endless+Blue.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Endless+Blue.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Glimmer.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Glimmer.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Imposter.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Imposter.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/In+the+Belly+of+the+Whale.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/In+the+Belly+of+the+Whale.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Motion+Blur.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Motion+Blur.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Noctivagant.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Noctivagant.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Oblivious.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Oblivious.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Panthalassa.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Panthalassa.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Reaching+out+My+Hand+I'm+Running,+Chasing+your+Shadow.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Reaching+out+My+Hand+I'm+Running,+Chasing+your+Shadow.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Sparkwood+&amp;+21.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Sparkwood+&amp;+21.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/Terminant.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/Terminant.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/The+Absurd.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/The+Absurd.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Songs/The+Author+Never+Dies+(instrumental).mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Songs/The+Author+Never+Dies+(instrumental).mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/TextMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/TextMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Behaviours/ScaleOnPointerHover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Behaviours/ScaleOnPointerHover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Components/MainMenuSmallButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Components/MainMenuSmallButton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/EmitEventsOnPointerBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/EmitEventsOnPointerBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/GameTitlePanel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/InGameMenu/MenuAnimationManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/InGameMenu/MenuAnimationManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/InGameMenu/PauseGameButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/InGameMenu/PauseGameButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/InGameMenuButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/MainMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/MainMenu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/MainMenuButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/MainMenuSmallButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/OnClickEmitEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/OnClickEmitEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/OnHoverEmitEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/OnHoverEmitEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/OnScreenButtonTransparent.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Screens/Credits/CreditsScreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Screens/Credits/CreditsScreen.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Screens/Leaderboard/LeaderboardScreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Screens/Leaderboard/LeaderboardScreen.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Screens/Settings/SettingsScreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Screens/Settings/SettingsScreen.prefab" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1u1n9oRCuVSTzuRnGC0DfI2zG2J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b587240d-3e9c-46a1-9b81-99bfa252d1b9" name="Default Changelist" comment="" />
+      <created>1623841813321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623841813321</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623843530530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623843530530" />
+    <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1623842689763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1623842689763" />
+  </component>
+</project>

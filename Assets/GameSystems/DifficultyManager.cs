@@ -41,16 +41,31 @@ public class DifficultyManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentDifficulty = minDifficulty;
+        
     }
 
     public void StartGame()
     {
+        currentDifficulty = minDifficulty;
+        nOfObjectsToSpawn = minObjectsToSpawn;
+        spawner.nOfObjectsToSpawnNextWave = minObjectsToSpawn;
+        spawner.spawnedObjectsSpeed = minSpeed;
         spawner.StartSpawning();
         startGameTime = Time.time;
         StartCoroutine(nameof(UpdateDifficulty));
     }
 
+    //Reset the difficulty
+    public void Reset()
+    {
+        currentDifficulty = minDifficulty;
+        nOfObjectsToSpawn = minObjectsToSpawn;
+        spawner.nOfObjectsToSpawnNextWave = minObjectsToSpawn;
+        spawner.spawnedObjectsSpeed = minSpeed;
+        
+        spawner.ResetState();
+    }
+    
     public void PauseGame()
     {
         spawner.frozen = true;
@@ -63,10 +78,15 @@ public class DifficultyManager : MonoBehaviour
         gamePaused = false;
     }
 
+    public void StopGame()
+    {
+        spawner.EndSpawning();
+        StopCoroutine(nameof(UpdateDifficulty));
+    }
+    
     // Update is called once per frame
     IEnumerator UpdateDifficulty()
     {
-        if (gamePaused) yield return new WaitUntil(() => gamePaused == false); //Wait until game resumes
 
         while (currentDifficulty < maxDifficulty)
         {
@@ -74,20 +94,18 @@ public class DifficultyManager : MonoBehaviour
             currentTime = Time.time;
             float timeElapsedSinceGameStart = currentTime - startGameTime;
             float percentToMaxDifficulty = timeElapsedSinceGameStart / secondsToReachMaxDifficulty;
-            currentDifficulty = Mathf.Lerp(minDifficulty, maxDifficulty,
-                howDifficultyScalesWithTime.Evaluate(percentToMaxDifficulty));
+            currentDifficulty = Mathf.Lerp(minDifficulty, maxDifficulty, howDifficultyScalesWithTime.Evaluate(percentToMaxDifficulty));
 
-            nOfObjectsToSpawn = (int) howNOfObjectsToSpawnScalesWithDifficulty.Evaluate(currentDifficulty);
+            nOfObjectsToSpawn = (int) Mathf.Lerp(minObjectsToSpawn, maxObjectsToSpawn, howNOfObjectsToSpawnScalesWithDifficulty.Evaluate(currentDifficulty));
             currentSpeed = Mathf.Lerp(minSpeed, maxSpeed, howSpeedScalesWithDifficulty.Evaluate(currentDifficulty));
-
-            if (nOfObjectsToSpawn < 0)
-            {
-                Debug.Log("Assertion objects < 0");
-            }
+            
+            Debug.Assert(nOfObjectsToSpawn >= 0, "Less than 0 objects to spawn");
+            Debug.Assert(nOfObjectsToSpawn <= 5, "More than 5 objects to spawn");
 
             spawner.nOfObjectsToSpawnNextWave = nOfObjectsToSpawn;
             spawner.spawnedObjectsSpeed = currentSpeed;
 
+            if (gamePaused) yield return new WaitUntil(() => gamePaused == false); //Wait until game resumes
             yield return new WaitForSeconds(1.0f);
         }
     }
