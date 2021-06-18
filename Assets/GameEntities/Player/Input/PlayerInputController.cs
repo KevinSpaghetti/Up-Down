@@ -1,8 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
 using UnityEngine.InputSystem;
 
 public class PlayerInputController : MonoBehaviour
@@ -32,9 +34,18 @@ public class PlayerInputController : MonoBehaviour
     public PlayerHorizontalLocation playerHorizontalLocation;
     public PlayerVerticalLocation playerVerticalLocation;
 
+    [Header("Animation Parameters")] 
+    public float horizontalAnimationsDuration;
+    public float verticalAnimationDuration;
+    public Light headlights;
+    
     private PlayerInput _inputComponent;
     private Animator _animator;
+
+    [SerializeField]
+    private bool inputIsLocked = false;
     
+    //TODO: Rework the system to use dotweener to avoid same frame input bugs
     void Awake()
     {
         _inputComponent = GetComponent<PlayerInput>();
@@ -59,34 +70,45 @@ public class PlayerInputController : MonoBehaviour
     
     public void OnMoveLeft(){
         if (!inputIsEnabled) return ;
+        if (inputIsLocked) return ;
+        inputIsLocked = true;
         var oldLocation = playerHorizontalLocation;
-        var newLocation = computeNextStateAfterHorizontalAction(PlayerHorizontalAction.GoLeft);
-        if(oldLocation == newLocation) return;
+        var newLocation = ComputeNextStateAfterHorizontalAction(PlayerHorizontalAction.GoLeft);
+        if (oldLocation == newLocation)
+        {
+            inputIsLocked = false;
+            return;
+        }
         
-        playerHorizontalLocation = newLocation;
-        gotoHorizontalPosition(PlayerHorizontalAction.GoLeft);
+        gotoHorizontalPosition(PlayerHorizontalAction.GoLeft, playerVerticalLocation, oldLocation, newLocation);
         Debug.Log("PlayerHorizontalAction.GoLeft");
     }
 
     public void OnMoveRight(){
         if (!inputIsEnabled) return ;
+        if (inputIsLocked) return ;
+        inputIsLocked = true;
         var oldLocation = playerHorizontalLocation;
-        var newLocation = computeNextStateAfterHorizontalAction(PlayerHorizontalAction.GoRight);
-        if(oldLocation == newLocation) return;
+        var newLocation = ComputeNextStateAfterHorizontalAction(PlayerHorizontalAction.GoRight);
+        if (oldLocation == newLocation)
+        {
+            inputIsLocked = false;
+            return;
+        }
         
-        playerHorizontalLocation = newLocation;
-        gotoHorizontalPosition(PlayerHorizontalAction.GoRight);
+        gotoHorizontalPosition(PlayerHorizontalAction.GoRight, playerVerticalLocation, oldLocation, newLocation);
         Debug.Log("PlayerHorizontalAction.GoRight");
     }
 
     public void OnSwitchSide(){
         if (!inputIsEnabled) return ;
-        playerVerticalLocation = computeNextStateAfterVerticalAction(PlayerVerticalAction.Switch);
-        _animator.SetTrigger("Switch");
-        Debug.Log("Switch");
+        if (inputIsLocked) return ;
+        inputIsLocked = true;
+        var newLocation = playerVerticalLocation == PlayerVerticalLocation.Bottom ? PlayerVerticalLocation.Top : PlayerVerticalLocation.Bottom;
+        AnimateSwitch(newLocation);
     }
     
-    PlayerHorizontalLocation computeNextStateAfterHorizontalAction (PlayerHorizontalAction playerAction) {
+    PlayerHorizontalLocation ComputeNextStateAfterHorizontalAction (PlayerHorizontalAction playerAction) {
         if (playerAction == PlayerHorizontalAction.GoLeft)
         {
             switch (playerHorizontalLocation)
@@ -114,38 +136,80 @@ public class PlayerInputController : MonoBehaviour
         
         return playerHorizontalLocation;
     }
-    PlayerVerticalLocation computeNextStateAfterVerticalAction (PlayerVerticalAction playerAction) {
-        switch (playerVerticalLocation)
-        {
-            case PlayerVerticalLocation.Top:
-                return PlayerVerticalLocation.Bottom;
-            case PlayerVerticalLocation.Bottom:
-                return PlayerVerticalLocation.Top;
-        }
 
-        return playerVerticalLocation;
-    }
-
-    void gotoHorizontalPosition(PlayerHorizontalAction action)
+    void gotoHorizontalPosition(PlayerHorizontalAction action, PlayerVerticalLocation verticalLocation, PlayerHorizontalLocation oldLocation, PlayerHorizontalLocation newLocation)
     {
-        string leftTrigger = "Left";
-        string rightTrigger = "Right";
-
-        if (playerVerticalLocation == PlayerVerticalLocation.Top)
+        switch (action)
         {
-            leftTrigger = "Right";
-            rightTrigger = "Left";
-        }
-
-        switch (action) {
             case PlayerHorizontalAction.GoLeft:
-                _animator.SetTrigger(leftTrigger);
+                AnimateGoLeft(newLocation);
                 break;
             case PlayerHorizontalAction.GoRight:
-                _animator.SetTrigger(rightTrigger);
+                AnimateGoRight(newLocation);
                 break;
         }
+
+    }
+
+    private void AnimateGoLeft(PlayerHorizontalLocation targetLocation)
+    {
+        var sequence = HorizontalAnimation(-2.5f, -10);
+        sequence.OnStart(() => inputIsLocked = true)
+            .OnComplete(() => {
+                inputIsLocked = false;
+                playerHorizontalLocation = targetLocation;
+            });
+        sequence.Play();
+    }
+    
+    private void AnimateGoRight(PlayerHorizontalLocation targetLocation)
+    {
+        var sequence = HorizontalAnimation(2.5f, 10);
+        sequence.OnStart(() => inputIsLocked = true)
+            .OnComplete(() => {
+                inputIsLocked = false;
+                playerHorizontalLocation = targetLocation;
+            });
+        sequence.Play();
+    }
+
+    private void AnimateSwitch(PlayerVerticalLocation targetLocation)
+    {
+        var sequence = DOTween.Sequence();
+
+        var movementAmount = targetLocation == PlayerVerticalLocation.Bottom ? -2.5f : 2.5f;
         
+        var move = transform.DOLocalMoveY(movementAmount, verticalAnimationDuration);
+        var rotate = transform.DORotate(transform.rotation.eulerAngles + new Vector3(0, 0, 180), verticalAnimationDuration);
+        var lightAnimationStage1 = headlights.DOIntensity(0, verticalAnimationDuration / 2.0f);
+        var lightAnimationStage2 = headlights.DOIntensity(25, verticalAnimationDuration / 2.0f);
+        
+        sequence.Insert(0.0f, move);
+        sequence.Insert(0.0f, rotate);
+        sequence.Insert(0.0f, lightAnimationStage1);
+        sequence.Insert(verticalAnimationDuration / 2.0f, lightAnimationStage2);
+        
+        sequence.OnStart(() => inputIsLocked = true)
+            .OnComplete(() => {
+                inputIsLocked = false;
+                playerVerticalLocation = targetLocation;
+            });
+        sequence.Play();
+    }
+
+    private Sequence HorizontalAnimation(float movementX, float rotation)
+    {
+        var sequence = DOTween.Sequence();
+
+        var move = transform.DOLocalMoveX(transform.position.x + movementX, horizontalAnimationsDuration);
+        var rotateStage1 = transform.DORotate(transform.rotation.eulerAngles + new Vector3(0, rotation, 0), horizontalAnimationsDuration / 2.0f);
+        var rotateStage2 = transform.DORotate(transform.rotation.eulerAngles + new Vector3(0, 0, 0), horizontalAnimationsDuration / 2.0f);
+        
+        sequence.Insert(0.0f, move);
+        sequence.Insert(0.0f, rotateStage1);
+        sequence.Insert(horizontalAnimationsDuration / 2.0f, rotateStage2);
+
+        return sequence;
     }
 
     public void GotoInitialPosition()

@@ -10,8 +10,7 @@ public class SongsPlaylistAudioController : MonoBehaviour
     [SerializeField]
     private bool paused;
     public bool playOnStart;
-
-    private int indexOfPlayingSong = 0;
+    
     private AudioSource _source;
     private InfinitePlaylistIterable playlist;
     

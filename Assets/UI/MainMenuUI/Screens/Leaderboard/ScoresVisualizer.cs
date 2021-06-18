@@ -36,7 +36,7 @@ public class ScoresVisualizer : MonoBehaviour
     {
         persistenceManager.LoadScores();
         List<int> scores = persistenceManager.scores;
-        Assert.IsTrue(scores.Count <= maxScoresToShow, "Cannot display more than the " + maxScoresToShow + " highest scores");
+        Debug.Assert(scores.Count <= maxScoresToShow, "Cannot display more than the " + maxScoresToShow + " highest scores");
 
         //Display all scores by activating the gameobjects needed and giving them the necessary text value, deactivate the others
         

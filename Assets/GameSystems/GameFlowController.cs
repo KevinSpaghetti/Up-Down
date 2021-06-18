@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Playables;
@@ -23,6 +24,7 @@ public class GameFlowController : MonoBehaviour
     
     public PlayerInputController playerInputController;
     
+    [Header("Game State Events")]
     public UnityEvent gameStartedBeforeAnimationsCompleteEvent;
     public UnityEvent gameStartedAfterAnimationsCompleteEvent;
     public UnityEvent gamePausedBeforeAnimationsCompleteEvent;
@@ -37,11 +39,9 @@ public class GameFlowController : MonoBehaviour
     public ScoresPersistenceManager scoresPersistenceManager;
     public VolumeManager volumeManager;
 
-    public PlayableDirector introToGameSequence;
-    public PlayableDirector goIntoPauseSequence;
-    public PlayableDirector resumeGameSequence;
-    public PlayableDirector goIntoEndGameMenuSequence;
-    public PlayableDirector returnToMainMenuSequence;
+    public AnimationSequence introToGameSequence;
+    public AnimationSequence goIntoPauseSequence;
+    public AnimationSequence goIntoEndGameMenuSequence;
 
     public GameObject inGamePauseMenu;
     public GameObject inGameEndMenu;
@@ -62,7 +62,7 @@ public class GameFlowController : MonoBehaviour
     {
         state = GameState.Menu;
         volumeManager.SetGlobalVolume(PlayerPrefs.GetFloat("volume", 0.5f));
-        StartCoroutine(nameof(UpdateScore));
+        StartCoroutine(nameof(UpdateScore)); //Update score with a coroutine to avoid frame dipendence
     }
 
     IEnumerator UpdateScore()
@@ -84,32 +84,30 @@ public class GameFlowController : MonoBehaviour
         
         Time.timeScale = 1.0f;
         score = 0;
+        if(scoreVisualization.gameObject.activeInHierarchy) scoreVisualization.score = 0;
         float vol = PlayerPrefs.GetFloat("volume", 0.5f);
         volumeManager.SetGlobalVolume(vol);
         
         playerInputController.DisableInput(); //Begins playing when the intro sequence is finished
         playerInputController.GotoInitialPosition();
-        introToGameSequence.Play();
         songsPlaylistAudioController.StartPlaying();
-        if (pauseGameButton.isMenuOpen)
-        {
-            pauseGameButton.SetMenuClosed();
-        }
-        
-        gameStartedBeforeAnimationsCompleteEvent.Invoke();
-    }
-    public void PlayStartSequenceFinished() {
-        gameStartedAfterAnimationsCompleteEvent.Invoke();
-        playerInputController.EnableInput();
+        if (pauseGameButton.isMenuOpen) pauseGameButton.SetMenuClosed();
 
-        Time.timeScale = 1.0f;
-        difficultyManager.StartGame();
+        gameStartedBeforeAnimationsCompleteEvent.Invoke();
+        introToGameSequence.Play(() =>
+        {
+            gameStartedAfterAnimationsCompleteEvent.Invoke();
+            playerInputController.EnableInput();
+
+            Time.timeScale = 1.0f;
+            difficultyManager.StartGame();
         
-        //User has the control of the game and can play
-        state = GameState.StartedAndPlaying;
+            //User has the control of the game and can play
+            state = GameState.StartedAndPlaying;
+        });
+
     }
-    
-        
+
     public void PauseGame()
     {
         state = GameState.Paused;
@@ -119,16 +117,14 @@ public class GameFlowController : MonoBehaviour
         gamePausedBeforeAnimationsCompleteEvent.Invoke();
         difficultyManager.PauseGame();
         
-        goIntoPauseSequence.Play();
-    }
-    public void PlayGotoPauseMenuSequenceFinished()
-    {
-        gamePausedAfterAnimationsCompleteEvent.Invoke();
-        songsPlaylistAudioController.Pause();
-        
-        state = GameState.Paused;
-    }
+        goIntoPauseSequence.Play(() =>
+        {
+            gamePausedAfterAnimationsCompleteEvent.Invoke();
+            songsPlaylistAudioController.Pause();
 
+            state = GameState.Paused;  
+        });
+    }
     
     public void ResumeGame()
     {
@@ -136,20 +132,18 @@ public class GameFlowController : MonoBehaviour
 
         gameResumedBeforeAnimationsCompleteEvent.Invoke();
         songsPlaylistAudioController.Resume();
-        resumeGameSequence.Play();
         difficultyManager.ResumeGame();
-        
-        LeanTween.value(this.gameObject, (float value) => { Time.timeScale = value; }, 0, 1, 0.15f).setEase(LeanTweenType.easeOutQuad).setIgnoreTimeScale(true);
-    }
-    public void PlayResumeGameSequenceFinished()
-    {
-        gameResumedAfterAnimationsCompleteEvent.Invoke();
-        playerInputController.EnableInput();
 
-        state = GameState.StartedAndPlaying;
+        Time.timeScale = 1;
+        goIntoPauseSequence.Backwards(() =>
+        {
+            gameResumedAfterAnimationsCompleteEvent.Invoke();
+            playerInputController.EnableInput();
+
+            state = GameState.StartedAndPlaying;
+        });
     }
 
-    
     public void EndGame()
     {
         state = GameState.EndGameMenu;
@@ -160,18 +154,17 @@ public class GameFlowController : MonoBehaviour
         scoresPersistenceManager.AddScore(score);
         scoresPersistenceManager.SaveScores();
         playerInputController.DisableInput();
-        goIntoEndGameMenuSequence.Play();
-        LeanTween.value(this.gameObject, (float value) => { Time.timeScale = value; }, 1, 0, 0.1f).setEase(LeanTweenType.easeOutQuad).setIgnoreTimeScale(true);
-    }
-    public void PlayGotoEndGameMenuFinished()
-    {
-        gameEndedAfterAnimationsCompleteEvent.Invoke();
-        songsPlaylistAudioController.StopPlaying();
-        difficultyManager.PauseGame();
+        Time.timeScale = 0;
+        goIntoEndGameMenuSequence.Play(() =>
+        {
+            gameEndedAfterAnimationsCompleteEvent.Invoke();
+            songsPlaylistAudioController.StopPlaying();
+            difficultyManager.PauseGame();
         
-        state = GameState.EndGameMenu;
+            state = GameState.EndGameMenu;
+        });
     }
-    
+
     public void ReturnToMainMenu()
     {
         songsPlaylistAudioController.StopPlaying();
@@ -181,40 +174,21 @@ public class GameFlowController : MonoBehaviour
         Time.timeScale = 1.0f;
         
         CloseAnyOpenMenu();
-        
-        returnToMainMenuBeforeAnimationsCompleteEvent.Invoke();
-        returnToMainMenuSequence.Play();
-
         ResetGameState();
         
-        Transform initialTransform = player.transform;
-        LeanTween.value(this.gameObject, (float value) =>
+        returnToMainMenuBeforeAnimationsCompleteEvent.Invoke();
+        introToGameSequence.Backwards(() =>
         {
-            //Interpolate Player position and rotation
-            Vector3 position = Vector3.Lerp(initialTransform.position, playerInitialPosition.position, value);
-            Quaternion rotation = Quaternion.Lerp(initialTransform.rotation, initialTransform.rotation, value);
-            player.transform.position = position;
-            player.transform.rotation = rotation;
-        }, 0, 1, 2f);
-
-    }
-    public void ReturnToMainMenuSequenceFinished()
-    {
-        returnToMainMenuAfterAnimationsCompleteEvent.Invoke();
-        state = GameState.Menu;
+            returnToMainMenuAfterAnimationsCompleteEvent.Invoke();
+            state = GameState.Menu;
+        });
     }
 
     private void CloseAnyOpenMenu()
     {
         //Close any open menu
-        if (inGamePauseMenu.activeInHierarchy) resumeGameSequence.Play();
-        if (inGameEndMenu.activeInHierarchy)
-        {
-            var canvasGroup = inGameEndMenu.GetComponent<CanvasGroup>();
-            canvasGroup.alpha = 0;
-            canvasGroup.interactable = false;
-            inGameEndMenu.SetActive(false);
-        }
+        if (inGamePauseMenu.activeInHierarchy) goIntoPauseSequence.Backwards(() => { });
+        if (inGameEndMenu.activeInHierarchy) goIntoEndGameMenuSequence.Backwards(() => { });
     }
     public void RestartGame()
     {
@@ -222,25 +196,20 @@ public class GameFlowController : MonoBehaviour
         ResetGameState();
 
         Time.timeScale = 1.0f;
-        
-        Transform initialTransform = player.transform;
-        LeanTween.value(this.gameObject, (float value) =>
+
+        var sequence = DOTween.Sequence();
+        sequence.Insert(0.0f, player.transform.DOMove(playerInitialPosition.position, 1.0f));
+        sequence.Insert(0.0f, player.transform.DORotate(playerInitialPosition.rotation.eulerAngles, 1.0f));
+        sequence.OnComplete(() =>
         {
-            //Interpolate Player position and rotation
-            Vector3 position = Vector3.Lerp(initialTransform.position, playerInitialPosition.position, value);
-            Quaternion rotation = Quaternion.Lerp(initialTransform.rotation, initialTransform.rotation, value);
-            player.transform.position = position;
-            player.transform.rotation = rotation;
-        }, 0, 1, 2f).setOnComplete(() =>
-        {
-            StartGame(); 
+            StartGame();
         });
+        sequence.Play();
 
     }
 
     private void ResetGameState()
     {
-
         difficultyManager.Reset();
     }
     

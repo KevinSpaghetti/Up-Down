@@ -62,7 +62,7 @@ QualitySettings:
     softVegetation: 0
     realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 0
-    vSyncCount: 1
+    vSyncCount: 0
     lodBias: 0.7
     maximumLODLevel: 0
     streamingMipmapsActive: 0
@@ -79,7 +79,4 @@ QualitySettings:
     customRenderPipeline: {fileID: 11400000, guid: d9f9727de002a2e48b97836ded57e006, type: 2}
     excludedTargetPlatforms:
     - WebGL
-  m_PerPlatformDefaultQuality:
-    Android: 0
-    Standalone: 0
-    WebGL: 0
+  m_PerPlatformDefaultQuality: {}

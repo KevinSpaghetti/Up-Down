@@ -16,7 +16,7 @@ public class ScoreVisualizationController : MonoBehaviour
 
     private TextMeshProUGUI _text;
     
-    void Start()
+    void Awake()
     {
         _text = GetComponent<TextMeshProUGUI>();
     }
