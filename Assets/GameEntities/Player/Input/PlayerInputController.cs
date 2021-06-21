@@ -106,6 +106,7 @@ public class PlayerInputController : MonoBehaviour
         inputIsLocked = true;
         var newLocation = playerVerticalLocation == PlayerVerticalLocation.Bottom ? PlayerVerticalLocation.Top : PlayerVerticalLocation.Bottom;
         AnimateSwitch(newLocation);
+        Debug.Log("PlayerVerticalAction.Switch");
     }
     
     PlayerHorizontalLocation ComputeNextStateAfterHorizontalAction (PlayerHorizontalAction playerAction) {

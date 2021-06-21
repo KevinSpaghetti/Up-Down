@@ -4,6 +4,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = System.Random;
 
+//Script that gives many commands every frame to the player script
+//used to test if the input system can handle many commands in a short
+//period of time and still keep a consistent internal state that allows the
+//player car model not to go off the rails ever
 public class Commander : MonoBehaviour
 {
     public PlayerInputController playerInput;
@@ -27,7 +31,6 @@ public class Commander : MonoBehaviour
                 int rnd1 = rng.Next(0, 1);
                 int rnd2 = rng.Next(0, 1);
                 int rnd3 = rng.Next(0, 1);
-                int rnd4 = rng.Next(0, 1);
 
                 if(rnd3 == 0) playerInput.OnSwitchSide();
                 if(rnd1 == 0) playerInput.OnMoveRight();

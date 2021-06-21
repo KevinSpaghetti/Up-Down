@@ -57,6 +57,8 @@ public class GameFlowController : MonoBehaviour
     public ScoreVisualizationController scoreVisualization;
     
     public int scoreIncreaseConstant = 10;
+
+    public RoadScrollingSpeedController roadSpeedController;
     
     void Start()
     {
@@ -84,7 +86,7 @@ public class GameFlowController : MonoBehaviour
         
         Time.timeScale = 1.0f;
         score = 0;
-        if(scoreVisualization.gameObject.activeInHierarchy) scoreVisualization.score = 0;
+        
         float vol = PlayerPrefs.GetFloat("volume", 0.5f);
         volumeManager.SetGlobalVolume(vol);
         
@@ -93,6 +95,8 @@ public class GameFlowController : MonoBehaviour
         songsPlaylistAudioController.StartPlaying();
         if (pauseGameButton.isMenuOpen) pauseGameButton.SetMenuClosed();
 
+        DOTween.To(() => roadSpeedController.speed, (x) => roadSpeedController.SetScrollingSpeed(x), 3.0f, 5.0f).SetEase(Ease.InCubic).Play();
+        
         gameStartedBeforeAnimationsCompleteEvent.Invoke();
         introToGameSequence.Play(() =>
         {
@@ -151,10 +155,14 @@ public class GameFlowController : MonoBehaviour
         difficultyManager.StopGame();
         
         gameEndedBeforeAnimationsCompleteEvent.Invoke();
+        Debug.Log("Saved score: " + score);
         scoresPersistenceManager.AddScore(score);
         scoresPersistenceManager.SaveScores();
         playerInputController.DisableInput();
+        
         Time.timeScale = 0;
+        roadSpeedController.SetScrollingSpeed(0);
+
         goIntoEndGameMenuSequence.Play(() =>
         {
             gameEndedAfterAnimationsCompleteEvent.Invoke();
@@ -171,6 +179,7 @@ public class GameFlowController : MonoBehaviour
         difficultyManager.StopGame();
         playerInputController.DisableInput();
         
+        roadSpeedController.SetScrollingSpeed(0);
         Time.timeScale = 1.0f;
         
         CloseAnyOpenMenu();
@@ -210,6 +219,8 @@ public class GameFlowController : MonoBehaviour
 
     private void ResetGameState()
     {
+        score = 0;
+        scoreVisualization.score = 0;
         difficultyManager.Reset();
     }
     

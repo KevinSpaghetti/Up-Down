@@ -17,8 +17,9 @@ public class DifficultyManager : MonoBehaviour
     [Range(0, 5)]
     public int maxObjectsToSpawn = 5;
 
-    public AnimationCurve howDifficultyScalesWithTime;
+    public float deltaSecondsBetweenWaves = 1;
     
+    public AnimationCurve howDifficultyScalesWithTime;
     public AnimationCurve howSpeedScalesWithDifficulty;
     public AnimationCurve howNOfObjectsToSpawnScalesWithDifficulty;
 
@@ -48,6 +49,7 @@ public class DifficultyManager : MonoBehaviour
     {
         currentDifficulty = minDifficulty;
         nOfObjectsToSpawn = minObjectsToSpawn;
+        spawner.deltaSecondsBetweenWaves = deltaSecondsBetweenWaves;
         spawner.nOfObjectsToSpawnNextWave = minObjectsToSpawn;
         spawner.spawnedObjectsSpeed = minSpeed;
         spawner.StartSpawning();
@@ -84,7 +86,6 @@ public class DifficultyManager : MonoBehaviour
         StopCoroutine(nameof(UpdateDifficulty));
     }
     
-    // Update is called once per frame
     IEnumerator UpdateDifficulty()
     {
 

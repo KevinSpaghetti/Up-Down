@@ -67,7 +67,11 @@ public class GameIntroSequence : AnimationSequence
 
         //In game UI Appears
         var inGameUIAppears = inGameUICanvasGroup.DOFade(1.0f, 1.0f)
-            .OnStart(() => mainMenuUICanvasGroup.interactable = false)
+            .OnStart(() =>
+            {
+                mainMenuUICanvasGroup.interactable = false;
+                inGameUICanvasGroup.interactable = false;
+            })
             .OnStart(() => inGameUI.SetActive(true));
         sequence.Insert(2.0f, inGameUIAppears);
         
@@ -77,6 +81,8 @@ public class GameIntroSequence : AnimationSequence
 
         sequence.Insert(3.0f, showControlButtons);
         sequence.Insert(4.0f, hideControlButtons);
+        
+        sequence.AppendCallback(() => inGameUICanvasGroup.interactable = true);
         
         sequence.SetUpdate(true);
         sequence.OnComplete(() => onEndCallback());

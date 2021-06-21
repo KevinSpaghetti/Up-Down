@@ -9,7 +9,7 @@ public class ApplicationSetup : MonoBehaviour
     void Awake()
     {
         QualitySettings.vSyncCount = 0;
-        Application.targetFrameRate = -1;
+        Application.targetFrameRate = 90;
 
         DOTween.defaultAutoPlay = AutoPlay.None;
         DOTween.defaultTimeScaleIndependent = true;

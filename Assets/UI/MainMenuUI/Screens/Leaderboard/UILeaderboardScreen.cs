@@ -10,6 +10,7 @@ public class UILeaderboardScreen : UIScreen
     public override void OnAppear()
     {
         base.OnAppear();
+        scoreVisualizer.LoadScores();
         scoreVisualizer.DisplayScores();
     }
 

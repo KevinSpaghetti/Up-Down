@@ -36,7 +36,7 @@ public class ScoresPersistenceManager : MonoBehaviour
         Debug.Assert(scores != null);
 
         int nofScoresToSave = Mathf.Min(scores.Count, nOfScoresToKeep);
-        return scores.OrderByDescending(a => a).Take(nOfScoresToKeep).ToList();
+        return scores.OrderByDescending(a => a).Take(nofScoresToSave).ToList();
     }
 
     //Save the 10 highest scores
@@ -51,7 +51,6 @@ public class ScoresPersistenceManager : MonoBehaviour
 
         var wrapper = new SerializerScoresWrapper(GetHighestScores(nOfHighScoresToKeep));
         string jsonData = JsonUtility.ToJson(wrapper);
-        Debug.Log("saving json:");
         Debug.Log(jsonData);
         
         File.WriteAllText(path, jsonData);
@@ -70,7 +69,7 @@ public class ScoresPersistenceManager : MonoBehaviour
         {
             string fileContents = File.ReadAllText(path);
             var wrapper = (SerializerScoresWrapper) JsonUtility.FromJson(fileContents, typeof(SerializerScoresWrapper));
-            scores = wrapper.scoresToKeep;
+            scores = wrapper.scoresToKeep.OrderByDescending(a => a).ToList();
         }
         
     }

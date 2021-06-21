@@ -16,6 +16,8 @@ public class ObstacleSpawner : MonoBehaviour
 
     //Difficulty management
     public int nOfObjectsToSpawnNextWave = 1;
+    //the spawner will spawn a number of objects in the range [nOfObjectsToSpawnNextWave -  nOfObjectsToSpawnRange, nOfObjectsToSpawnNextWave + nOfObjectsToSpawnRange]
+    public int nOfObjectsToSpawnRange = 2; 
     public float deltaSecondsBetweenWaves = 5;
     public float spawnedObjectsSpeed = 1;
 
@@ -58,15 +60,17 @@ public class ObstacleSpawner : MonoBehaviour
 
     void Update()
     {
-        if (frozen) return;
-        
-        //Update all spawned objects positions
+        if (!frozen) UpdateAllSpawnedObjectsPositions();
+    }
+
+    void UpdateAllSpawnedObjectsPositions()
+    {
         foreach (var obj in spawnedObstacles)
         {
             obj.Key.transform.position += spawnedObjectsDirection * (spawnedObjectsSpeed * Time.deltaTime);
         }
     }
-
+    
     public void StartSpawning()
     {
         StartCoroutine(nameof(SpawnObstacles));
@@ -84,7 +88,7 @@ public class ObstacleSpawner : MonoBehaviour
         frozen = false;
     }
     
-    public void RemoveAllObstacles()
+    private void RemoveAllObstacles()
     {
         foreach (var pair in spawnedObstacles)
         {
@@ -107,24 +111,31 @@ public class ObstacleSpawner : MonoBehaviour
                 return  distanceFromSpawnPoint > killDistanceForSpawnedObjects; 
             });
 
-            foreach (var pair in objectsToReturnToPool)
+            if (objectsToReturnToPool.Count > 0)
             {
-                possibleObstaclePools[pair.Value].ReturnToPool(pair.Key);
-            }
 
-            spawnedObstacles.RemoveAll((KeyValuePair<GameObject, int> pair) =>
-            {
-                return objectsToReturnToPool.Contains(pair);
-            });
+                foreach (var pair in objectsToReturnToPool)
+                {
+                    possibleObstaclePools[pair.Value].ReturnToPool(pair.Key);
+                }
+
+                spawnedObstacles.RemoveAll((KeyValuePair<GameObject, int> pair) =>
+                {
+                    return objectsToReturnToPool.Contains(pair);
+                });
+            }
         }
     }
     
+    private bool[] isIndexOfSpawnPointFree; //To avoid expensive small GC allocations
     IEnumerator SpawnObstacles()
     {
+        isIndexOfSpawnPointFree = new bool[spawnPoints.Count];
         for (;;)
         {
             SpawnObstaclesInTracks();
             
+            //Save the remaining time before the next spawn wave
             float timer = 0f;
             while(timer < deltaSecondsBetweenWaves) {
                 while(frozen) {
@@ -142,12 +153,25 @@ public class ObstacleSpawner : MonoBehaviour
         Debug.Assert(nOfObjectsToSpawnNextWave < 6, "Requested more than 5 objects to spawn"); // 6 objects would render the game impossible
         Debug.Assert(nOfObjectsToSpawnNextWave >= 0, "Requested less than 0 objects to spawn");
 
+        //Casually spawn more or less objects
         int nOfObjectsToSpawn = nOfObjectsToSpawnNextWave;
+        nOfObjectsToSpawn = rng.Next(nOfObjectsToSpawn - nOfObjectsToSpawnRange, nOfObjectsToSpawn + nOfObjectsToSpawnRange);
+        nOfObjectsToSpawn = Mathf.Clamp(nOfObjectsToSpawn, 0, 5);
+
         if (nOfObjectsToSpawn == 0) return;
+        
+        for (int i = 0; i < spawnPoints.Count; ++i) isIndexOfSpawnPointFree[i] = true;
         do
         {
-            //Choose a random spawn point
-            Transform spawnPoint = ChooseRandomSpawnPoint();
+            //Choose a random spawn point not picked before
+            int spawnPointIndex;
+            do
+            {
+                spawnPointIndex = rng.Next(0, spawnPoints.Count);
+            } while (!isIndexOfSpawnPointFree[spawnPointIndex]);
+            isIndexOfSpawnPointFree[spawnPointIndex] = false;
+            Transform spawnPoint = spawnPoints[spawnPointIndex];
+            
             //Choose a random obstacle from the pools
             KeyValuePair<GameObject, int> obstacleWithPoolInfo = ChooseRandomObstacleFromPools();
 
@@ -158,11 +182,12 @@ public class ObstacleSpawner : MonoBehaviour
             }    
             #endif
             
+            Debug.Assert(obstacleWithPoolInfo.Key != null);
+            
             if (obstacleWithPoolInfo.Key != null)
             {
                 GameObject obstacle = obstacleWithPoolInfo.Key;
-                obstacle.transform.position = spawnPoint.transform.position + spawnedObjectsPositionOffset;
-                obstacle.transform.rotation = spawnPoint.transform.rotation;
+                obstacle.transform.SetPositionAndRotation(spawnPoint.transform.position + spawnedObjectsPositionOffset, spawnPoint.transform.rotation);
                 obstacle.transform.parent = spawnPoint;
                 spawnedObstacles.Add(new KeyValuePair<GameObject, int>(obstacle, obstacleWithPoolInfo.Value));
             }
@@ -171,13 +196,7 @@ public class ObstacleSpawner : MonoBehaviour
         } while (nOfObjectsToSpawn > 0);
         
     }
-
-    private Transform ChooseRandomSpawnPoint()
-    {
-        int spawnPointIndex = rng.Next(0, spawnPoints.Count);
-        return spawnPoints[spawnPointIndex];
-    }
-
+    
     private KeyValuePair<GameObject, int> ChooseRandomObstacleFromPools()
     {
         int poolIndex = rng.Next(0, possibleObstaclePools.Length);
