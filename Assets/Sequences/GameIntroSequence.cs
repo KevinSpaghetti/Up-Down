@@ -69,10 +69,10 @@ public class GameIntroSequence : AnimationSequence
         var inGameUIAppears = inGameUICanvasGroup.DOFade(1.0f, 1.0f)
             .OnStart(() =>
             {
+                inGameUI.SetActive(true);
                 mainMenuUICanvasGroup.interactable = false;
                 inGameUICanvasGroup.interactable = false;
-            })
-            .OnStart(() => inGameUI.SetActive(true));
+            });
         sequence.Insert(2.0f, inGameUIAppears);
         
         //Show buttons
@@ -93,7 +93,7 @@ public class GameIntroSequence : AnimationSequence
     {
         var sequence = DOTween.Sequence();
 
-        //Remove UI for game start
+        //Add Main menu UI 
         var mainMenuUITitleChangePositions = mainMenuUIGameTitlePanelTransform.DOAnchorPosY(gameTitlePanelInitialYPosition, 1.0f);
         var mainMenuUIButtonsChangePositions = mainMenuUIGameButtonsPanelTransform.DOAnchorPosY(buttonsPanelInitialYPosition, 1.0f);
         var mainMenuUIFade = mainMenuUICanvasGroup.DOFade(1, 1.8f)
@@ -103,17 +103,18 @@ public class GameIntroSequence : AnimationSequence
         sequence.Insert(0, mainMenuUIButtonsChangePositions);
         sequence.Insert(0, mainMenuUIFade);
 
-        //Player appears
+        //Player return to initial position
         var playerReturnsToInitialPosition = playerCharacter.transform.DOMove(playerInitialPosition.position, 2.0f);
         sequence.Insert(0, playerReturnsToInitialPosition);
 
-        //Volume increases
+        //Volume descreases
         var volumeDecrease = inGameSongsAudioSource.DOFade(0.0f, 2.0f);
         sequence.Insert(0, volumeDecrease);
 
-        //In game UI Appears
+        //In game UI disappears
         var inGameUIDisappears = inGameUICanvasGroup.DOFade(0.0f, 1.0f)
-            .OnStart(() => inGameUI.SetActive(false));
+            .OnStart(() => inGameUICanvasGroup.interactable = false)
+            .OnComplete(() => inGameUI.SetActive(false));
         sequence.Insert(0.0f, inGameUIDisappears);
 
         sequence.Insert(0.0f, playerCharacter.transform.DOMove(playerInitialPosition.position, 1.0f));

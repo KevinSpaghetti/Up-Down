@@ -47,8 +47,8 @@ public class GameFlowController : MonoBehaviour
     public GameObject inGameEndMenu;
 
     public PlayerInputController player;
-    public Transform playerInitialPosition;
-    
+    public Transform playerPositionWhenInMainMenu;
+
     public SongsPlaylistAudioController songsPlaylistAudioController;
 
     public DifficultyManager difficultyManager;
@@ -59,6 +59,7 @@ public class GameFlowController : MonoBehaviour
     public int scoreIncreaseConstant = 10;
 
     public RoadScrollingSpeedController roadSpeedController;
+    public CanvasGroup inGameUICanvasGroup;
     
     void Start()
     {
@@ -133,12 +134,12 @@ public class GameFlowController : MonoBehaviour
     public void ResumeGame()
     {
         state = GameState.Paused;
-
+        Time.timeScale = 1;
+        
         gameResumedBeforeAnimationsCompleteEvent.Invoke();
         songsPlaylistAudioController.Resume();
         difficultyManager.ResumeGame();
-
-        Time.timeScale = 1;
+        
         goIntoPauseSequence.Backwards(() =>
         {
             gameResumedAfterAnimationsCompleteEvent.Invoke();
@@ -167,8 +168,7 @@ public class GameFlowController : MonoBehaviour
         {
             gameEndedAfterAnimationsCompleteEvent.Invoke();
             songsPlaylistAudioController.StopPlaying();
-            difficultyManager.PauseGame();
-        
+
             state = GameState.EndGameMenu;
         });
     }
@@ -193,12 +193,6 @@ public class GameFlowController : MonoBehaviour
         });
     }
 
-    private void CloseAnyOpenMenu()
-    {
-        //Close any open menu
-        if (inGamePauseMenu.activeInHierarchy) goIntoPauseSequence.Backwards(() => { });
-        if (inGameEndMenu.activeInHierarchy) goIntoEndGameMenuSequence.Backwards(() => { });
-    }
     public void RestartGame()
     {
         CloseAnyOpenMenu();
@@ -207,8 +201,10 @@ public class GameFlowController : MonoBehaviour
         Time.timeScale = 1.0f;
 
         var sequence = DOTween.Sequence();
-        sequence.Insert(0.0f, player.transform.DOMove(playerInitialPosition.position, 1.0f));
-        sequence.Insert(0.0f, player.transform.DORotate(playerInitialPosition.rotation.eulerAngles, 1.0f));
+        sequence.Insert(0.0f, player.transform.DOMove(playerPositionWhenInMainMenu.position, 1.0f));
+        sequence.Insert(0.0f, player.transform.DORotate(playerPositionWhenInMainMenu.rotation.eulerAngles, 1.0f));
+        inGameUICanvasGroup.interactable = false;
+        songsPlaylistAudioController.StopPlaying();
         sequence.OnComplete(() =>
         {
             StartGame();
@@ -217,10 +213,18 @@ public class GameFlowController : MonoBehaviour
 
     }
 
+    private void CloseAnyOpenMenu()
+    {
+        //Close any open menu
+        if (inGamePauseMenu.activeInHierarchy) goIntoPauseSequence.Backwards(() => { });
+        if (inGameEndMenu.activeInHierarchy) goIntoEndGameMenuSequence.Backwards(() => { });
+    }
+
     private void ResetGameState()
     {
         score = 0;
         scoreVisualization.score = 0;
+        difficultyManager.StopGame();
         difficultyManager.Reset();
     }
     

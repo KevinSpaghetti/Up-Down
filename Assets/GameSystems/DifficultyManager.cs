@@ -38,12 +38,6 @@ public class DifficultyManager : MonoBehaviour
     private float currentTime = 0.0f;
 
     public bool gamePaused = false;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     public void StartGame()
     {
@@ -52,14 +46,15 @@ public class DifficultyManager : MonoBehaviour
         spawner.deltaSecondsBetweenWaves = deltaSecondsBetweenWaves;
         spawner.nOfObjectsToSpawnNextWave = minObjectsToSpawn;
         spawner.spawnedObjectsSpeed = minSpeed;
+        gamePaused = false;
         spawner.StartSpawning();
-        startGameTime = Time.time;
         StartCoroutine(nameof(UpdateDifficulty));
     }
 
     //Reset the difficulty
     public void Reset()
     {
+        currentSpeed = minSpeed;
         currentDifficulty = minDifficulty;
         nOfObjectsToSpawn = minObjectsToSpawn;
         spawner.nOfObjectsToSpawnNextWave = minObjectsToSpawn;
@@ -84,11 +79,13 @@ public class DifficultyManager : MonoBehaviour
     {
         spawner.EndSpawning();
         StopCoroutine(nameof(UpdateDifficulty));
+        spawner.frozen = false;
+        gamePaused = false;
     }
     
     IEnumerator UpdateDifficulty()
     {
-
+        startGameTime = Time.time;
         while (currentDifficulty < maxDifficulty)
         {
             //Update all the params necessary to increase the difficulty   

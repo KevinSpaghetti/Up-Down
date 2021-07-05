@@ -17,7 +17,7 @@ public class MenuOpenCloseSequence : AnimationSequence
     {
         var sequence = DOTween.Sequence();
         
-        var volumeGoesDown = songsAudioSource.DOFade(1.0f, 0.15f);
+        var volumeGoesDown = songsAudioSource.DOFade(0.0f, 0.15f);
         sequence.Insert(0, volumeGoesDown);
 
         var menuScaleUp = menu.transform.DOScale(Vector3.one, 0.15f);
@@ -37,8 +37,8 @@ public class MenuOpenCloseSequence : AnimationSequence
     {
         var sequence = DOTween.Sequence();
         
-        var volumeGoesDown = songsAudioSource.DOFade(0.0f, 0.15f);
-        sequence.Insert(0, volumeGoesDown);
+        var volumeGoesUp = songsAudioSource.DOFade(1.0f, 0.15f);
+        sequence.Insert(0, volumeGoesUp);
 
         var menuScaleDown = menu.transform.DOScale(Vector3.zero, 0.15f);
         var menuFadeOut = menuCanvasGroup.DOFade(0.0f, 0.15f)

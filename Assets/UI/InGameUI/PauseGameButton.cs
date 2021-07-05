@@ -7,8 +7,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Image))]
-public class PauseGameButton : MonoBehaviour,
-    IPointerClickHandler
+public class PauseGameButton : MonoBehaviour
 {
 
     public UnityEvent menuOpen;
@@ -19,17 +18,22 @@ public class PauseGameButton : MonoBehaviour,
     public Sprite menuOpenSprite;
 
     private Image _imageComponent;
-
+    private Button _buttonComponent;
+    
     public bool isMenuOpen = false;
     
     void Awake()
     {
+        _buttonComponent = GetComponent<Button>();
         _imageComponent = GetComponent<Image>();
         _imageComponent.sprite = menuClosedSprite;
+
+        _buttonComponent.onClick.AddListener(OnClick);
     }
     
-    public void OnPointerClick(PointerEventData eventData)
+    public void OnClick()
     {
+        
         isMenuOpen = !isMenuOpen;
         if (isMenuOpen)
         {

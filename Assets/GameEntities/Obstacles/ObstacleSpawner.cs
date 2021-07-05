@@ -17,7 +17,7 @@ public class ObstacleSpawner : MonoBehaviour
     //Difficulty management
     public int nOfObjectsToSpawnNextWave = 1;
     //the spawner will spawn a number of objects in the range [nOfObjectsToSpawnNextWave -  nOfObjectsToSpawnRange, nOfObjectsToSpawnNextWave + nOfObjectsToSpawnRange]
-    public int nOfObjectsToSpawnRange = 2; 
+    public int nOfObjectsToSpawnRange = 1; 
     public float deltaSecondsBetweenWaves = 5;
     public float spawnedObjectsSpeed = 1;
 

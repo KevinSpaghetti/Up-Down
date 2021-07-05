@@ -32,7 +32,8 @@ public class RoadScrollingSpeedController : MonoBehaviour
 
     private void Update()
     {
-        offset.y += (speed * Time.deltaTime) % 1.0f;
+        offset.y += (speed * Time.deltaTime);
+        offset.y %= 1.0f;
         _upRoadMaterial.SetVector(offsetPropertyHash, offset);
         _downRoadMaterial.SetVector(offsetPropertyHash, offset);
     }

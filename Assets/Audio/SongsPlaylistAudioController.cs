@@ -32,6 +32,7 @@ public class SongsPlaylistAudioController : MonoBehaviour
     {
         StopCoroutine(nameof(PlayClipsSequentally));
         _source.Stop();
+        paused = false;
     }
 
     public void Pause()
